@@ -30,7 +30,7 @@ To design and build an AI-driven assistant that can:
 - **Dual-channel delivery** — the same backend and conversational logic serves both a web chat interface and WhatsApp (via Twilio), including image and voice input on both channels
 - **Conversation history and threading** — users can revisit and continue past conversations
 
-![Screenshot 2026-09-10 141202](https://raw.githubusercontent.com/Ihcarp443/Silver_medal_assignment/main/Screenshot%202026-09-10%20141202.png)
+![Architecture](https://raw.githubusercontent.com/Ihcarp443/Silver_medal_assignment/main/Architecture%20(2).png)
 
 ## Architecture Approach
  
