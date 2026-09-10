@@ -1,0 +1,79 @@
+{
+  "policy_name": "Maintenance Of Pregnant Desi/Indigenous Cow/Buffalo Ration Scheme For BPL Families Belonging To Scheduled Caste (SC) Category",
+  "sector": "Agriculture, Rural & Environment",
+  "sections": {
+    "overview": "This scheme by the Department of Animal Husbandry, Government of Himachal Pradesh provides a 50% subsidy on balanced ration for pregnant indigenous cows or buffaloes belonging to BPL Scheduled Caste families during the last trimester of pregnancy.",
+    "objective": "To increase milk production, improve health of pregnant cattle, reduce inter-calving period, ensure birth of healthy calves, and promote rearing of indigenous animals.",
+    "eligibility": [
+      "Beneficiary must be a permanent resident of Himachal Pradesh",
+      "Must belong to BPL Scheduled Caste category",
+      "Must be a livestock owner rearing desi/indigenous or crossbred cows or buffaloes",
+      "Subsidy is limited to a maximum of two animals"
+    ],
+    "benefits": [
+      "50% subsidy on balanced ration",
+      "3 kg ration per day per animal",
+      "Support available for up to two animals",
+      "Ration provided for three months during last trimester",
+      "Increase in milk production by about 2 liters per day",
+      "Potential annual income increase of about \u20b918,000"
+    ],
+    "applicationprocess": [
+      "Visit https://hpahdbt.hp.gov.in/Home/MaintenanceCowBuffaloRationSchemeUnderScsp (https://hpahdbt.hp.gov.in/Home/MaintenanceCowBuffaloRationSchemeUnderScsp)",
+      "Read scheme guidelines and accept terms and conditions",
+      "Fill online application form",
+      "Upload required documents such as BPL proof and bank details",
+      "Submit application to concerned department",
+      "Track application status through portal"
+    ],
+    "documents_required": [
+      "Proof of BPL status",
+      "Residence proof",
+      "Bank account details",
+      "Land or livestock ownership documents",
+      "Details of animals including ear tag numbers"
+    ],
+    "faq": [
+      {
+        "question": "What is the objective of the scheme?",
+        "answer": "To increase milk production, improve cattle health, reduce inter-calving period, and promote indigenous breeds."
+      },
+      {
+        "question": "Which department launched the scheme?",
+        "answer": "Department of Animal Husbandry, Government of Himachal Pradesh."
+      },
+      {
+        "question": "Who is eligible under the scheme?",
+        "answer": "BPL Scheduled Caste livestock owners rearing indigenous or crossbred cows or buffaloes."
+      },
+      {
+        "question": "What is the ration quantity provided?",
+        "answer": "3 kg per day per animal."
+      },
+      {
+        "question": "For how many animals is the benefit provided?",
+        "answer": "Up to two animals per family."
+      },
+      {
+        "question": "For how long is the ration provided?",
+        "answer": "For three months during the last trimester of pregnancy."
+      },
+      {
+        "question": "What is the subsidy percentage?",
+        "answer": "50% of the cost is subsidized."
+      },
+      {
+        "question": "How is the cost shared?",
+        "answer": "The cost is shared equally between government and beneficiary."
+      },
+      {
+        "question": "What is the outcome of the scheme?",
+        "answer": "Milk production increases by about 2 liters per day after feeding the ration."
+      },
+      {
+        "question": "How can one apply for the scheme?",
+        "answer": "Applications can be submitted online through the official portal."
+      }
+    ]
+  }
+}

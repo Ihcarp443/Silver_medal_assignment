@@ -1,0 +1,74 @@
+{
+  "policy_name": "Internship Programme Of The Wildlife Crime Control Bureau",
+  "sector": "Agriculture, Rural & Environment",
+  "sections": {
+    "overview": "The Internship Programme of the Wildlife Crime Control Bureau under the Ministry of Environment, Forests and Climate Change provides students and researchers with practical exposure to wildlife crime control, conservation, and law enforcement activities.",
+    "objective": "To build capacity and awareness in wildlife crime prevention by providing academic learning, practical exposure, and research opportunities in wildlife protection and policy.",
+    "eligibility": [
+      "Applicant must be an Indian citizen",
+      "Applicant must not be employed in any public or private sector job",
+      "Applicant must be below 30 years of age",
+      "Applicant must be pursuing graduation, post-graduation, or diploma",
+      "Field of study should relate to wildlife management, conservation, zoology, botany, or law"
+    ],
+    "benefits": [
+      "Certificate provided upon successful completion",
+      "Internship duration of one month",
+      "Conducted twice a year during summer and winter",
+      "Practical exposure to wildlife crime control and policy",
+      "Opportunity to work with WCCB officials and experts"
+    ],
+    "applicationprocess": [
+      "Fill application in prescribed format",
+      "Obtain recommendation letter from Head of Institution",
+      "Send application by post to WCCB office, New Delhi",
+      "Ensure application reaches 5 weeks before start date",
+      "Mention 'Application for Internship for Month/Year' on envelope"
+    ],
+    "documents_required": [
+      "Duly filled application form",
+      "Identity proofs including Aadhaar card",
+      "Curriculum Vitae",
+      "Recommendation letter from institution",
+      "Educational qualification certificates"
+    ],
+    "faq": [
+      {
+        "question": "What is the Wildlife Crime Control Bureau?",
+        "answer": "It is a statutory body under the Ministry of Environment to combat wildlife crime in India."
+      },
+      {
+        "question": "Where is WCCB headquarters located?",
+        "answer": "The headquarters is located in New Delhi."
+      },
+      {
+        "question": "Does internship guarantee a job?",
+        "answer": "No, completing the internship does not guarantee employment."
+      },
+      {
+        "question": "Are interns required to sign confidentiality agreements?",
+        "answer": "Yes, interns must sign a non-disclosure undertaking."
+      },
+      {
+        "question": "Can interns use collected data for research?",
+        "answer": "No, data cannot be used without prior approval."
+      },
+      {
+        "question": "Can the internship be terminated?",
+        "answer": "Yes, WCCB may terminate the internship at any time."
+      },
+      {
+        "question": "Is any remuneration provided?",
+        "answer": "No, the internship does not provide any remuneration."
+      },
+      {
+        "question": "How often does the selection committee meet?",
+        "answer": "The selection committee meets twice a year."
+      },
+      {
+        "question": "What is the selection process?",
+        "answer": "Applications are scrutinized based on academic performance by a selection committee."
+      }
+    ]
+  }
+}

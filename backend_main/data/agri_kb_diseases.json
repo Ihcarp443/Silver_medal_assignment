@@ -1,0 +1,263 @@
+[
+  {
+    "crop": "Apple",
+    "disease": "Apple Scab",
+    "symptoms": "Olive-green to dark brown velvety spots on leaves and fruit; leaves may yellow and drop early; fruit develops corky, scabby lesions.",
+    "treatment_organic": "Remove and destroy fallen leaves each autumn to reduce overwintering spores; apply sulfur or neem-based sprays at bud break.",
+    "treatment_chemical": "Captan or Mancozeb sprays starting at green tip stage, repeated every 7-10 days during wet spring weather.",
+    "prevention": "Plant scab-resistant varieties; prune for good air circulation; avoid overhead irrigation.",
+    "weather_note": "Infection is driven by prolonged leaf wetness in cool, wet spring weather -- avoid spraying right before rain washes it off; time sprays ahead of forecast wet periods."
+  },
+  {
+    "crop": "Apple",
+    "disease": "Black Rot",
+    "symptoms": "Purple-bordered brown leaf spots (\"frogeye leaf spot\"); fruit develops concentric brown rings and eventually mummifies on the tree.",
+    "treatment_organic": "Prune out dead/cankered wood and mummified fruit; remove during dry weather to limit spore spread.",
+    "treatment_chemical": "Captan or Thiophanate-methyl fungicide sprays from petal fall through summer.",
+    "prevention": "Remove nearby dead wood and mummified fruit which harbor the fungus over winter; avoid tree stress/wounds.",
+    "weather_note": "Spreads fastest in warm, humid conditions -- monitor closely after heavy summer rain."
+  },
+  {
+    "crop": "Apple",
+    "disease": "Cedar Apple Rust",
+    "symptoms": "Bright orange-yellow spots on upper leaf surface, sometimes with small black dots; can cause premature leaf drop.",
+    "treatment_organic": "Remove nearby juniper/cedar trees within a few hundred meters if feasible, since the fungus needs both hosts to complete its cycle.",
+    "treatment_chemical": "Myclobutanil or Mancozeb sprays from pink bud stage through several weeks after petal fall.",
+    "prevention": "Plant rust-resistant apple varieties; avoid planting near cedar/juniper trees.",
+    "weather_note": "Spores travel on wind during wet spring conditions -- highest infection risk during rainy periods in spring."
+  },
+  {
+    "crop": "Apple",
+    "disease": "Healthy",
+    "symptoms": "No visible disease symptoms.",
+    "treatment_organic": "No treatment needed.",
+    "treatment_chemical": "No treatment needed.",
+    "prevention": "Continue regular monitoring, balanced fertilization, and proper pruning for airflow.",
+    "weather_note": "N/A"
+  },
+  {
+    "crop": "Bell Pepper",
+    "disease": "Bacterial Spot",
+    "symptoms": "Small, water-soaked spots on leaves that turn brown/black with yellow halos; raised scabby spots on fruit.",
+    "treatment_organic": "Copper-based bactericide sprays; remove and destroy infected plant debris; avoid working in fields when foliage is wet.",
+    "treatment_chemical": "Copper hydroxide combined with Mancozeb, applied on a 7-10 day schedule during favorable conditions.",
+    "prevention": "Use certified disease-free seed/transplants; rotate crops (avoid peppers/tomatoes in same spot for 2-3 years); avoid overhead irrigation.",
+    "weather_note": "Spreads rapidly in warm, wet, humid weather with splashing rain -- avoid overhead watering during outbreaks."
+  },
+  {
+    "crop": "Bell Pepper",
+    "disease": "Healthy",
+    "symptoms": "No visible disease symptoms.",
+    "treatment_organic": "No treatment needed.",
+    "treatment_chemical": "No treatment needed.",
+    "prevention": "Maintain crop rotation and monitor regularly for early signs of bacterial spot.",
+    "weather_note": "N/A"
+  },
+  {
+    "crop": "Cherry",
+    "disease": "Healthy",
+    "symptoms": "No visible disease symptoms.",
+    "treatment_organic": "No treatment needed.",
+    "treatment_chemical": "No treatment needed.",
+    "prevention": "Continue regular pruning for airflow and monitoring for powdery mildew.",
+    "weather_note": "N/A"
+  },
+  {
+    "crop": "Cherry",
+    "disease": "Powdery Mildew",
+    "symptoms": "White powdery fungal growth on leaves, shoots, and sometimes fruit; leaves may curl or distort.",
+    "treatment_organic": "Sulfur sprays or potassium bicarbonate; neem oil; improve air circulation via pruning.",
+    "treatment_chemical": "Myclobutanil or trifloxystrobin fungicide sprays at first sign of disease.",
+    "prevention": "Prune for open canopy and airflow; avoid excess nitrogen fertilization which promotes susceptible new growth.",
+    "weather_note": "Unlike many fungal diseases, powdery mildew thrives in warm, DRY conditions with high humidity at night -- doesn't need leaf wetness to spread."
+  },
+  {
+    "crop": "Corn (Maize)",
+    "disease": "Cercospora Leaf Spot",
+    "symptoms": "Small, rectangular, tan-to-gray lesions with parallel sides running along leaf veins; lesions can merge and kill large areas of leaf.",
+    "treatment_organic": "Rotate crops away from corn/maize for at least one season; remove and destroy crop debris after harvest.",
+    "treatment_chemical": "Strobilurin or triazole fungicides applied at early symptom onset, especially on susceptible hybrids.",
+    "prevention": "Plant resistant hybrids; practice crop rotation; avoid continuous corn planting in the same field.",
+    "weather_note": "Favored by warm, humid weather with extended periods of leaf wetness -- risk rises after several consecutive humid days."
+  },
+  {
+    "crop": "Corn (Maize)",
+    "disease": "Common Rust",
+    "symptoms": "Small, reddish-brown, elongated pustules scattered on both leaf surfaces that can be rubbed off as powder.",
+    "treatment_organic": "Remove severely infected plants where practical; ensure good field spacing for airflow.",
+    "treatment_chemical": "Propiconazole or Azoxystrobin fungicide, applied if disease appears early in the season on susceptible hybrids.",
+    "prevention": "Plant rust-resistant hybrids; avoid dense planting that traps humidity.",
+    "weather_note": "Spreads via windborne spores; cool, moist conditions (60-77°F / 16-25°C) with dew favor infection."
+  },
+  {
+    "crop": "Corn (Maize)",
+    "disease": "Healthy",
+    "symptoms": "No visible disease symptoms.",
+    "treatment_organic": "No treatment needed.",
+    "treatment_chemical": "No treatment needed.",
+    "prevention": "Continue crop rotation and monitor for rust/leaf spot/blight symptoms.",
+    "weather_note": "N/A"
+  },
+  {
+    "crop": "Corn (Maize)",
+    "disease": "Northern Leaf Blight",
+    "symptoms": "Long, cigar-shaped gray-green to tan lesions on leaves, typically 1-6 inches long, running parallel to leaf veins.",
+    "treatment_organic": "Rotate crops; till under or remove infected crop residue after harvest to reduce overwintering fungus.",
+    "treatment_chemical": "Mancozeb or strobilurin-class fungicide applied at first appearance of lesions, especially before tasseling.",
+    "prevention": "Plant resistant hybrids; avoid continuous corn cropping; ensure adequate row spacing.",
+    "weather_note": "Favored by moderate temperatures (65-80°F / 18-27°C) with heavy dew or extended wet periods -- watch closely during humid stretches."
+  },
+  {
+    "crop": "Grape",
+    "disease": "Black Rot",
+    "symptoms": "Small tan spots with dark borders on leaves; fruit shrivels into hard, black \"mummies.\"",
+    "treatment_organic": "Remove mummified berries and infected leaves/canes; improve canopy airflow through pruning.",
+    "treatment_chemical": "Mancozeb or Myclobutanil sprays starting at bud break through several weeks post-bloom.",
+    "prevention": "Prune out and destroy infected wood and old mummies (major overwintering source); avoid dense canopy.",
+    "weather_note": "Warm, wet spring weather right after bud break is the highest-risk period for new infection."
+  },
+  {
+    "crop": "Grape",
+    "disease": "Esca (Black Measles)",
+    "symptoms": "\"Tiger-stripe\" pattern of yellow/red streaks between leaf veins; berries may develop dark spots; can cause sudden vine collapse.",
+    "treatment_organic": "No effective organic cure once internal wood infection is established; remove and destroy severely affected vines/wood.",
+    "treatment_chemical": "No fully reliable curative chemical treatment exists; some vineyards use wound-protectant pastes on pruning cuts to prevent new infections.",
+    "prevention": "Avoid pruning wounds during wet weather; disinfect pruning tools between vines; protect large pruning cuts with a sealant.",
+    "weather_note": "Fungal entry happens mainly through pruning wounds during wet conditions -- prune in dry weather where possible."
+  },
+  {
+    "crop": "Grape",
+    "disease": "Healthy",
+    "symptoms": "No visible disease symptoms.",
+    "treatment_organic": "No treatment needed.",
+    "treatment_chemical": "No treatment needed.",
+    "prevention": "Continue canopy management and monitor for black rot, esca, and leaf blight.",
+    "weather_note": "N/A"
+  },
+  {
+    "crop": "Grape",
+    "disease": "Leaf Blight",
+    "symptoms": "Irregular reddish-brown spots on leaves, often starting at leaf margins, that can merge and cause leaf scorch/drop.",
+    "treatment_organic": "Remove and destroy fallen infected leaves; improve airflow via canopy management.",
+    "treatment_chemical": "Copper-based fungicide or Mancozeb applied at first sign of spotting.",
+    "prevention": "Avoid overhead irrigation; ensure good canopy spacing; remove infected debris each season.",
+    "weather_note": "Spreads fastest during warm, humid periods with extended leaf wetness."
+  },
+  {
+    "crop": "Peach",
+    "disease": "Bacterial Spot",
+    "symptoms": "Small, dark, water-soaked spots on leaves that may fall out leaving a \"shot-hole\" appearance; sunken dark lesions on fruit.",
+    "treatment_organic": "Copper-based sprays applied during dormant season and early growing season; avoid working with wet foliage.",
+    "treatment_chemical": "Copper bactericide combined with an approved additive (e.g., oxytetracycline where locally permitted) during the growing season.",
+    "prevention": "Plant resistant varieties; avoid overhead irrigation; provide good air circulation via pruning.",
+    "weather_note": "Wind-driven rain and warm, humid weather spread bacteria fastest -- risk spikes after storms."
+  },
+  {
+    "crop": "Peach",
+    "disease": "Healthy",
+    "symptoms": "No visible disease symptoms.",
+    "treatment_organic": "No treatment needed.",
+    "treatment_chemical": "No treatment needed.",
+    "prevention": "Continue monitoring for bacterial spot, particularly after wind/rain events.",
+    "weather_note": "N/A"
+  },
+  {
+    "crop": "Potato",
+    "disease": "Early Blight",
+    "symptoms": "Dark brown spots with concentric \"target\" rings on older/lower leaves first; leaves may yellow and drop.",
+    "treatment_organic": "Remove and destroy infected lower leaves; rotate crops away from potato/tomato for 2+ years; use neem or copper sprays.",
+    "treatment_chemical": "Chlorothalonil or Mancozeb fungicide, applied at first symptom and repeated every 7-10 days.",
+    "prevention": "Ensure adequate plant nutrition (stressed plants are more susceptible); avoid overhead irrigation; use certified disease-free seed potatoes.",
+    "weather_note": "Favored by warm temperatures with alternating wet/dry periods -- common in mid-to-late season."
+  },
+  {
+    "crop": "Potato",
+    "disease": "Healthy",
+    "symptoms": "No visible disease symptoms.",
+    "treatment_organic": "No treatment needed.",
+    "treatment_chemical": "No treatment needed.",
+    "prevention": "Continue crop rotation and monitor closely during warm, humid weather for early/late blight.",
+    "weather_note": "N/A"
+  },
+  {
+    "crop": "Potato",
+    "disease": "Late Blight",
+    "symptoms": "Dark, water-soaked lesions on leaves that spread rapidly, often with a pale green/yellow border; white fungal growth visible on the underside of leaves in humid conditions; can destroy a field within days.",
+    "treatment_organic": "Remove and destroy infected plants immediately to slow spread; copper-based fungicide as a preventive spray in high-risk weather.",
+    "treatment_chemical": "Chlorothalonil, Mancozeb, or systemic fungicides like metalaxyl, applied preventively before an outbreak in high-risk weather -- this disease spreads too fast for reactive-only treatment.",
+    "prevention": "Use certified disease-free seed potatoes; avoid overhead irrigation; destroy volunteer potato plants and cull piles which harbor the pathogen.",
+    "weather_note": "This is the most weather-sensitive disease in this list -- outbreaks are strongly tied to cool, wet, humid conditions (60-70°F / 15-21°C with high humidity or rain). Checking the forecast before/after spraying is especially important here; this is a strong candidate for your weather-tool integration to flag high-risk conditions proactively."
+  },
+  {
+    "crop": "Strawberry",
+    "disease": "Healthy",
+    "symptoms": "No visible disease symptoms.",
+    "treatment_organic": "No treatment needed.",
+    "treatment_chemical": "No treatment needed.",
+    "prevention": "Continue proper watering and mulching to prevent leaf scorch.",
+    "weather_note": "N/A"
+  },
+  {
+    "crop": "Strawberry",
+    "disease": "Leaf Scorch",
+    "symptoms": "Small purple-to-red blotches on leaves that merge, giving a scorched appearance; leaf margins may curl upward.",
+    "treatment_organic": "Remove and destroy infected leaves after harvest; ensure proper spacing and mulching to reduce splash-spread.",
+    "treatment_chemical": "Captan or Myclobutanil fungicide sprays during the growing season.",
+    "prevention": "Ensure good soil drainage; avoid overhead irrigation; renovate beds (remove old foliage) after harvest each year.",
+    "weather_note": "Spreads via rain/irrigation splash -- worse in wet seasons with poor drainage."
+  },
+  {
+    "crop": "Tomato",
+    "disease": "Bacterial Spot",
+    "symptoms": "Small, dark, greasy-looking spots on leaves and fruit, sometimes with a yellow halo; fruit spots can become raised and scabby.",
+    "treatment_organic": "Copper-based bactericide sprays; remove infected plant debris; avoid handling wet plants.",
+    "treatment_chemical": "Copper hydroxide combined with Mancozeb on a regular schedule during favorable (warm, wet) conditions.",
+    "prevention": "Use certified disease-free seed/transplants; rotate crops; avoid overhead watering.",
+    "weather_note": "Spreads fast in warm, wet, humid weather with splashing rain -- similar risk profile to bell pepper bacterial spot."
+  },
+  {
+    "crop": "Tomato",
+    "disease": "Early Blight",
+    "symptoms": "Dark brown spots with concentric rings (\"target spot\") on older leaves first, often with yellowing around the lesion.",
+    "treatment_organic": "Remove infected lower leaves promptly; mulch to prevent soil splash onto leaves; copper or neem sprays.",
+    "treatment_chemical": "Chlorothalonil or Mancozeb fungicide, applied at first symptom and every 7-10 days after.",
+    "prevention": "Stake/cage plants for airflow; avoid overhead irrigation; rotate crops away from tomato/potato for 2+ years.",
+    "weather_note": "Favored by warm weather with alternating wet/dry periods and heavy dew."
+  },
+  {
+    "crop": "Tomato",
+    "disease": "Healthy",
+    "symptoms": "No visible disease symptoms.",
+    "treatment_organic": "No treatment needed.",
+    "treatment_chemical": "No treatment needed.",
+    "prevention": "Continue staking/caging for airflow and monitor closely during warm, humid weather.",
+    "weather_note": "N/A"
+  },
+  {
+    "crop": "Tomato",
+    "disease": "Late Blight",
+    "symptoms": "Large, dark, water-soaked blotches on leaves that spread quickly, often with white fungal growth on the underside in humid conditions; can collapse a plant within days.",
+    "treatment_organic": "Remove and destroy infected plants immediately; copper-based preventive sprays in high-risk weather.",
+    "treatment_chemical": "Chlorothalonil, Mancozeb, or systemic fungicides applied preventively -- like potato late blight, reactive treatment alone is often too late.",
+    "prevention": "Avoid overhead irrigation; ensure good air circulation; remove volunteer tomato/potato plants nearby.",
+    "weather_note": "Same pathogen family as potato late blight -- strongly tied to cool, wet, humid conditions. High priority for weather-triggered proactive alerts."
+  },
+  {
+    "crop": "Tomato",
+    "disease": "Septoria Leaf Spot",
+    "symptoms": "Small, circular spots with dark borders and gray/tan centers, often with tiny black dots (fungal fruiting bodies) visible in the center; usually starts on lower leaves.",
+    "treatment_organic": "Remove infected lower leaves promptly; mulch to reduce soil splash; copper-based sprays.",
+    "treatment_chemical": "Chlorothalonil or Mancozeb fungicide, applied at first symptom and repeated every 7-10 days.",
+    "prevention": "Stake/cage plants for airflow; avoid overhead watering; rotate crops; remove plant debris after harvest.",
+    "weather_note": "Spreads via rain splash and prolonged leaf wetness -- worse in wet, humid seasons."
+  },
+  {
+    "crop": "Tomato",
+    "disease": "Yellow Leaf Curl Virus",
+    "symptoms": "Upward curling and yellowing of leaves, stunted plant growth, flower drop, and significantly reduced fruit set.",
+    "treatment_organic": "No cure once infected -- remove and destroy infected plants to reduce spread; use reflective mulch or fine mesh netting to deter the whitefly vector.",
+    "treatment_chemical": "No direct chemical cure for the virus itself; insecticides (e.g., neem oil, or approved systemic insecticides) targeting the whitefly vector can reduce further spread.",
+    "prevention": "Use virus-resistant tomato varieties; control whitefly populations; avoid planting near heavily infected fields; use physical barriers (netting) for young plants.",
+    "weather_note": "This is vector-borne (whiteflies), not directly weather-driven the way fungal diseases are -- whitefly populations tend to increase in warm, dry conditions, so that's the more relevant weather signal here."
+  }
+]

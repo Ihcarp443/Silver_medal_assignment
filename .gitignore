@@ -1,0 +1,62 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+benv/
+
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+.next/
+out/
+dist/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temp / runtime files
+# =========================
+temp/
+*.wav
+*.webm
+
+# =========================
+# IDE / system files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+
+# =========================
+# ML / AI artifacts (IMPORTANT for your project)
+# =========================
+*.faiss
+*.pkl
+*.db
+
+
+node_modules/
+venv/
+.env
+.next/
+benv/
+older_backend/
+__pycache__/

@@ -1,0 +1,67 @@
+{
+  "policy_name": "Pradhan Mantri Gram Sadak Yojana",
+  "sector": "Agriculture, Rural & Environment",
+  "sections": {
+    "overview": "Pradhan Mantri Gram Sadak Yojana (PMGSY) was launched on 25th December 2000 to provide all-weather road connectivity to unconnected rural habitations. The scheme focuses on rural infrastructure development and improving accessibility in remote areas through a centrally sponsored programme implemented with state participation.",
+    "objective": "To provide all-weather road connectivity to eligible unconnected rural habitations and improve rural infrastructure, economic development, and accessibility.",
+    "eligibility": [
+      "Area must qualify as a habitation (population cluster), not just a revenue village",
+      "Habitation should have population of 500 or more in plain areas",
+      "Habitation should have population of 250 or more in special category states, hilly or desert areas",
+      "Population criteria based on Census 2001",
+      "Cluster approach may be used for nearby habitations in specific regions"
+    ],
+    "benefits": [
+      "All-weather road connectivity to unconnected habitations",
+      "Improved transportation and movement of goods",
+      "Enhanced employment opportunities in rural areas",
+      "Overall rural and economic development",
+      "Better access to services such as healthcare and education"
+    ],
+    "applicationprocess": [
+      "District Panchayat finalizes road work proposals annually",
+      "Selection based on fund allocation and priority of unconnected habitations",
+      "Consultation with Panchayati Raj Institutions and local representatives",
+      "Priority given to inclusion in Core Network",
+      "New connectivity is prioritized over upgradation"
+    ],
+    "documents_required": [
+      "Utilisation certificate for previously released funds",
+      "Bank certificate indicating balance and interest",
+      "Certificate of physical completion of works",
+      "Audited statement of accounts and balance sheet",
+      "OMMAS module reports verified by authorities",
+      "Maintenance fund utilization certificate from SRRDA"
+    ],
+    "faq": [
+      {
+        "question": "Does the programme provide connectivity only to revenue villages?",
+        "answer": "No, the programme focuses on habitations, which are population clusters such as hamlets, tolas, or majras rather than revenue villages."
+      },
+      {
+        "question": "Who decides which habitations are covered?",
+        "answer": "District Panchayat finalizes the list based on priority, population, and fund availability through a consultative process."
+      },
+      {
+        "question": "Can an individual apply for road connectivity?",
+        "answer": "No, proposals are considered at habitation level as per programme guidelines, not individual requests."
+      },
+      {
+        "question": "What is meant by all-weather connectivity?",
+        "answer": "It means roads that are usable in all seasons, not necessarily paved but properly drained and accessible year-round."
+      },
+      {
+        "question": "Is compensation given for land acquisition?",
+        "answer": "Generally land is provided voluntarily, but if acquired, compensation is paid by the State Government."
+      },
+      {
+        "question": "How is quality of road work monitored?",
+        "answer": "Quality is monitored through contractors, state-level independent monitors, and national quality monitors."
+      },
+      {
+        "question": "Where can information about the programme be accessed?",
+        "answer": "Information is available on www.omms.nic.in and www.pmgsy.nic.in (www.omms.nic.in, www.pmgsy.nic.in)."
+      }
+    ]
+  }
+}

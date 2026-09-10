@@ -1,0 +1,61 @@
+{
+  "policy_name": "Mahila Bakri Palan",
+  "sector": "Agriculture, Rural & Environment",
+  "sections": {
+    "overview": "The Mahila Bakri Palan scheme was introduced by the Department of Animal Husbandry, Government of Uttarakhand to support women through goat rearing for livelihood generation and improved household income.",
+    "objective": "To empower women, especially abandoned, widowed, destitute, single, and disaster-affected women, by providing financial support for goat rearing.",
+    "eligibility": [
+      "Applicant must be a resident of Uttarakhand",
+      "Applicant must be a woman",
+      "Applicant must belong to one of the following categories: abandoned, widow, destitute, single, or disaster-affected"
+    ],
+    "benefits": [
+      "One unit of goats consisting of 3 females and 1 male aged 12 to 18 months is provided",
+      "Total cost of ₹35,000 per unit is fully borne by the State Government",
+      "Funds are transferred to the beneficiary’s bank account through Direct Benefit Transfer (DBT)"
+    ],
+    "application_process": [
+      "Application mode is offline",
+      "Beneficiaries are selected on a first come, first served basis",
+      "Applicants must submit their proposal in an open meeting of the Gram Sabha",
+      "Proposal should be submitted to the Veterinary Officer, Livestock Extension Officer, or Gram Panchayat Development Officer",
+      "Applicants must submit Aadhaar card, bank details, and relevant supporting documents along with the proposal"
+    ],
+    "documents_required": [
+      "Aadhaar card",
+      "Bank account details",
+      "Caste certificate",
+      "Other supporting documents as required"
+    ],
+    "faq": [
+      {
+        "question": "Who are eligible for this scheme?",
+        "answer": "Abandoned, widowed, destitute, single, and disaster-affected women are eligible for this scheme."
+      },
+      {
+        "question": "What support is provided under the scheme?",
+        "answer": "One unit of goats consisting of 3 females and 1 male aged 12 to 18 months is provided."
+      },
+      {
+        "question": "Who bears the cost of the scheme?",
+        "answer": "The entire cost of ₹35,000 per unit is borne by the State Government of Uttarakhand."
+      },
+      {
+        "question": "How can women apply for this scheme?",
+        "answer": "Applicants must submit their proposal in an open meeting of the Gram Sabha."
+      },
+      {
+        "question": "To whom should the proposal be submitted?",
+        "answer": "The proposal should be submitted to the Veterinary Officer, Livestock Extension Officer, or Gram Panchayat Development Officer of the area."
+      },
+      {
+        "question": "How are funds provided to beneficiaries?",
+        "answer": "Funds are transferred to the beneficiary’s bank account through Direct Benefit Transfer (DBT) within one to two months after selection."
+      },
+      {
+        "question": "On what basis are beneficiaries selected?",
+        "answer": "Beneficiaries are selected on a first come, first served basis."
+      }
+    ]
+  }
+}
