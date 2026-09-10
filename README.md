@@ -1,4 +1,6 @@
 # AI Farmer Assistant — Project Documentation
+![Screenshot 2026-09-10 141202](https://raw.githubusercontent.com/Ihcarp443/Silver_medal_assignment/main/Screenshot%202026-09-10%20141202.png)
+
  
 ## Problem Statement
  
