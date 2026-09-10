@@ -1,8 +1,62 @@
+# AI Farmer Assistant — Project Documentation
+ 
+## Problem Statement
+ 
+Farmers in India face three recurring, disconnected challenges: identifying crop diseases early enough to act, navigating a fragmented landscape of government schemes and subsidies they may be eligible for, and getting timely resolution when a payment or application issue occurs — all while language and digital literacy remain real barriers for many users. Existing tools typically solve only one of these problems in isolation (a disease-ID app, a scheme-lookup portal, a grievance helpline), forcing farmers to juggle multiple disconnected channels.
+ 
+This project builds a single conversational assistant — accessible via both a web interface and WhatsApp — that unifies crop disease diagnosis, scheme/subsidy guidance, weather-aware advice, and grievance tracking into one multilingual (English/Hindi) chat experience.
+ 
+## Objective
+ 
+To design and build an AI-driven assistant that can:
+- Diagnose crop diseases from a photo and provide actionable treatment guidance
+- Answer questions about government farming schemes and subsidies using a curated knowledge base
+- Incorporate real-time weather context into agronomic advice (e.g. spray/irrigation timing)
+- Detect and formally track grievances (e.g. delayed subsidy payments) through a structured, multi-step intake flow
+- Operate seamlessly across Website and WhatsApp, in the user's preferred language, with support for text, voice, and image input
+## Key Features
+ 
+- **Multilingual conversational interface** (English/Hindi) with speech-to-text and text-to-speech support for voice-based interaction
+- **Crop disease detection from photos** — a CNN (transfer learning, EfficientNet backbone) trained on the PlantVillage dataset, covering major crops and diseases relevant to Indian farming
+- **Retrieval-augmented answers** from two purpose-built knowledge bases: crop disease treatment/prevention, and government scheme eligibility/benefits
+- **Weather-aware recommendations** — live forecast data factored into spray/irrigation guidance, with automatic city-to-coordinate resolution
+- **Web search fallback** for information not covered by the internal knowledge bases (e.g. recently announced schemes)
+- **Grievance intake and tracking** — a structured, multi-turn flow that collects required details (application ID, contact info), validates them, and returns a status/ticket, rather than a generic complaint form
+- **Persistent conversational memory** — the assistant remembers user context (location, land size, soil type, crops grown) across sessions for increasingly personalized guidance
+- **Feedback loop** — users can rate responses and request regeneration with a stated reason, feeding into response quality improvement
+- **Dual-channel delivery** — the same backend and conversational logic serves both a web chat interface and WhatsApp (via Twilio), including image and voice input on both channels
+- **Conversation history and threading** — users can revisit and continue past conversations
+## Architecture Approach
+ 
+The system is built around a single LLM-driven agent that dynamically decides — via tool selection — whether to retrieve disease information, retrieve scheme information, check the weather, search the web, or escalate to a structured grievance flow. This avoids the rigidity of a fixed, hand-coded intent classifier and lets the assistant naturally handle queries that span multiple domains in one request (e.g. "how do I treat this and is there a subsidy for the fungicide?"). Image-based disease detection runs as a separate preprocessing step ahead of the conversational flow, keeping the CNN inference cleanly decoupled from the language/reasoning pipeline. Grievance handling is implemented as a stateful, interruptible sub-flow, since collecting structured information across multiple turns is a fundamentally different problem from single-shot question answering.
+ 
+## Tools & Technologies
+ 
+**Backend:** Python, FastAPI
+ 
+**AI / Orchestration:** LangGraph (agent and conversation state management), LangChain (tool-calling agent framework), an LLM for reasoning and generation
+ 
+**Machine Learning:** TensorFlow/Keras — transfer learning (EfficientNet) for crop disease classification, trained on the PlantVillage dataset
+ 
+**Retrieval / Knowledge Base:** ChromaDB (vector database) with two dedicated collections — crop disease knowledge and government scheme knowledge — using multilingual sentence embeddings for retrieval
+ 
+**Speech:** Sarvam AI — speech-to-text and text-to-speech for multilingual voice interaction
+ 
+**External Data:** Open-Meteo (weather forecast and geocoding, free and key-less), DuckDuckGo Search (web search fallback)
+ 
+**Messaging:** Twilio WhatsApp API for WhatsApp channel integration
+ 
+**Persistence:** SQLite (conversation state checkpointing, chat thread history, user memory)
+ 
+**Frontend:** Next.js / React
+ 
+**Observability:** Langfuse (tracing and debugging of the agent's tool-calling behavior)
+ 
+
 ## Repository
 
 ```
-git clone https://github.com/Ihcarp443/scheme-bot.git
-cd scheme-bot
+git clone https://github.com/Ihcarp443/Silver_medal_assignment.git
 ```
 
 ---
@@ -12,8 +66,8 @@ cd scheme-bot
 ```text
 scheme-bot/
 │
-├──govt_chatbot-main/frontend/my_app          # Next.js Frontend
-├── backend_main/my_app          # FastAPI Backend
+├── frontend/my_app          # Next.js Frontend
+├── backend_main/main         # FastAPI Backend
 ├── README.md
 └── ...
 ```
@@ -88,7 +142,7 @@ pip install -r requirements.txt
 Navigate to the frontend folder.
 
 ```bash
-cd ..govt_chatbot-main/frontend/my-app
+cd ..frontend/my-app
 ```
 
 Install all Node.js dependencies.
@@ -124,7 +178,7 @@ SARVAM_API_KEY=
 
 ### Frontend
 
-Inside the **govt_chatbot-main/frontend/my-app** folder, create a file named:
+Inside the **frontend/my-app** folder, create a file named:
 
 ```text
 .env
@@ -160,8 +214,11 @@ The final structure should look like:
 backend/
 │
 ├── data/
-│   ├── Scheme_DB
+│   ├── chroma_db
 │   └── schemes
+|   |___agri_kb.json
+|    
+| 
 │
 ├── main.py
 ├── requirements.txt
@@ -221,7 +278,7 @@ http://localhost:8000/docs (Directly paste this URL in your browser)
 Open another terminal.
 
 ```bash
-cd govt_chatbot-main/frontend/my-app
+cd frontend/my-app
 ```
 
 Run:
@@ -261,9 +318,3 @@ npm install <package_name>
 * Ensure the required database files are copied into the `backend/DB` folder before running the backend.
 
 ---
-
-# Repository
-
-```
-https://github.com/Ihcarp443/scheme-bot.git
-```
