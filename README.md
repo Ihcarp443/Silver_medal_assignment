@@ -1,7 +1,8 @@
 # AI Farmer Assistant — Project Documentation
-![Screenshot 2026-09-10 141202](https://raw.githubusercontent.com/Ihcarp443/Silver_medal_assignment/main/Screenshot%202026-09-10%20141202.png)
+[Watch the video](https://raw.githubusercontent.com/Ihcarp443/Silver_medal_assignment/main/agri_with_voice.mp4)
 
- 
+[![Demo Video](https://raw.githubusercontent.com/Ihcarp443/Silver_medal_assignment/main/Screenshot%202026-09-10%20141202.png)](https://raw.githubusercontent.com/Ihcarp443/Silver_medal_assignment/main/agri_with_voice.mp4)
+
 ## Problem Statement
  
 Farmers in India face three recurring, disconnected challenges: identifying crop diseases early enough to act, navigating a fragmented landscape of government schemes and subsidies they may be eligible for, and getting timely resolution when a payment or application issue occurs — all while language and digital literacy remain real barriers for many users. Existing tools typically solve only one of these problems in isolation (a disease-ID app, a scheme-lookup portal, a grievance helpline), forcing farmers to juggle multiple disconnected channels.
@@ -28,6 +29,9 @@ To design and build an AI-driven assistant that can:
 - **Feedback loop** — users can rate responses and request regeneration with a stated reason, feeding into response quality improvement
 - **Dual-channel delivery** — the same backend and conversational logic serves both a web chat interface and WhatsApp (via Twilio), including image and voice input on both channels
 - **Conversation history and threading** — users can revisit and continue past conversations
+
+![Screenshot 2026-09-10 141202](https://raw.githubusercontent.com/Ihcarp443/Silver_medal_assignment/main/Screenshot%202026-09-10%20141202.png)
+
 ## Architecture Approach
  
 The system is built around a single LLM-driven agent that dynamically decides — via tool selection — whether to retrieve disease information, retrieve scheme information, check the weather, search the web, or escalate to a structured grievance flow. This avoids the rigidity of a fixed, hand-coded intent classifier and lets the assistant naturally handle queries that span multiple domains in one request (e.g. "how do I treat this and is there a subsidy for the fungicide?"). Image-based disease detection runs as a separate preprocessing step ahead of the conversational flow, keeping the CNN inference cleanly decoupled from the language/reasoning pipeline. Grievance handling is implemented as a stateful, interruptible sub-flow, since collecting structured information across multiple turns is a fundamentally different problem from single-shot question answering.
