@@ -57,7 +57,12 @@ The system is built around a single LLM-driven agent that dynamically decides â€
 **Frontend:** Next.js / React
  
 **Observability:** Langfuse (tracing and debugging of the agent's tool-calling behavior)
- 
+
+
+## Flow Chart
+
+![Flow_chart](https://raw.githubusercontent.com/Ihcarp443/Silver_medal_assignment/main/Flow-chart-1.png)
+
 
 ## Repository
 
